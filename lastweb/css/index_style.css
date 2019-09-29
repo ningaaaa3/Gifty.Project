@@ -1,0 +1,353 @@
+*{
+
+	margin: 0px;
+	padding: 0px;
+    font-family: "open sans";
+}
+h1 , h2 , h3 ,h4{
+    font-family: "Helvetica";
+    font-size: 25px;
+    color: #000;
+}
+.webSite{
+    position: relative;
+    top:0%;
+    left:0%;
+     background-color: rgba(223, 215, 215, 0.192);
+}
+.hiddenList{
+   position: absolute;
+   top:0%;
+   left:0%;
+    background-color: rgba(31, 27, 27, 0.842);
+   float: left;
+   width:0% ;
+   height: 100%;
+   overflow: auto;
+
+}
+.hiddenList ul {
+    display: none;
+}
+.hiddenList ul ,.hiddenList ul div {
+ padding: 5px 10px;
+
+}
+.categoriesDiv ,.recipientDiv,.ocassionDiv,.inspirationDiv{
+    display: none;
+}
+.hiddenList ul .py-3 , .hiddenList ul .py-2{
+    font-size: 14px;
+    font-weight: 500;
+    background-color: #444242;
+    border-bottom: 1.5px solid rgba(20, 20, 20, 0.4);
+    cursor: pointer;
+    border-radius: 4px;
+    color: #ccc;
+}
+.hiddenList ul div ul li{
+    padding : 5px 10px;
+    color: #fff; 
+    list-style: none;
+    padding-bottom:4px; 
+    font-weight: 500;
+   transition: all 1s;
+    cursor: pointer;
+    border-radius: 4px;
+}
+.hiddenList ul div ul li a{
+    color: rgb(151, 147, 147);
+    text-decoration: none;
+    font-size: 13px;
+    transition: all 1s;
+} 
+.hiddenList ul div ul li:hover{
+    background:linear-gradient(125deg,#3498db,#34495e)!important;}
+    .hiddenList ul div ul li:hover  a{
+    color: #fff;
+
+}
+
+.navbar{
+    font-weight: 500;
+}
+.firstTog{
+    cursor: pointer;
+}
+.bg-light{
+    background-color: #fff!important;
+
+}
+.navbar-brand{
+    font-family: 'Alex Brush', cursive; color:#3498db!important; font-size:30px!important;font-weight: 500;
+}
+.logo{width:5%;}
+
+nav form{
+    width: 45%;
+}
+.navbar span{
+    color: #1492E6 !important; 
+}
+#searchInp{
+    border-radius: 20px;
+   width: 100%;
+}
+.fa-search{
+    right: 3%;
+    top: 30%;
+    color:#1492E6;
+    cursor: pointer;
+}
+.fa-user{
+    color: #707070;
+    font-size: 25px;
+}
+.fa-cog , .signLink  {
+    color:#707070 !important;
+}
+.navbar a{
+    font-size: 15px;
+    text-decoration:none;
+    color: #1492E6;
+}
+.fa-opencart{
+    color:  #1492E6;
+}
+.helpLink{
+
+    margin-left:100px; 
+}
+.sc
+{
+    position: relative;
+    transition: all 1s;
+    
+}
+.myhome,.account
+{
+    text-decoration: none;
+    color:#ccc;
+}
+.myhome:hover,.account:hover
+{
+       text-decoration: none; color:#ccc;
+}
+.sc:hover
+{
+    transform: scale(1.05,1.05);
+}
+.navTwo {
+    background:linear-gradient(125deg,#3498db,#34495e);
+    color: #fff !important;
+}
+.navTwo .nav-link{
+    font-size: 14px;
+    color: #fff !important;
+}
+.navTwo .dropdown-menu{
+    font-size: 13px;}
+.navTwo .country{
+    color: rgb(236, 237, 240) !important;} 
+/* start of section home */
+
+
+.fa-map-marker-alt{
+ font-size: 25px;
+}
+.container-fluid a{
+    text-decoration: none;
+}
+
+.dropdown-menu a{
+    color: rgb(131, 126, 126)!important;
+    font-weight: 500;
+    border-bottom: 1.5px solid rgb(131, 126, 126 , 0.4);
+    transition: all 1.5s;
+}
+.dropdown-menu a:hover{
+    color: #fff !important ;
+    background:linear-gradient(125deg,#3498db,#34495e)!important;
+}
+
+::-webkit-scrollbar{
+    background: #ddd;
+    width:10px;
+}
+::-webkit-scrollbar-track{
+    border-radius: 10px;
+    box-shadow: inset 0 0 5px #00000070 }
+::-webkit-scrollbar-thumb{
+    border-radius: 10px;
+    background:linear-gradient(125deg,#3498db,#34495e);
+}
+.home .container-fluid{
+    background-color: #fff;
+}
+
+.kids .container-fluid .row{
+    background-color: #fff;
+}
+
+
+
+@keyframes  Floatingx{
+    0%{bottom:10%}
+    25%{bottom:20%}
+    50%{bottom:30%}
+    75%{bottom:20%}
+    100%{bottom:10%}
+}
+
+.back{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background:linear-gradient(125deg,#3498db,#34495e);
+    position: fixed;
+    right: 5%;
+    bottom: 10%;
+    z-index: 999999999999;
+    text-align: center;
+    display: inline-block;
+
+}
+.section_scroll{
+   
+      color: white;
+    font-size: 10px;
+  position: absolute;
+  right: 30%;
+   bottom: 10%;
+        animation-name: Floatingx;
+   animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+   animation-timing-function: ease-in-out;
+}
+.section_scroll:hover{
+    color: white!important;}
+  .alot{
+      background-color: white;
+  }
+  .owl-nav span{
+display:none;
+  }
+ 
+ .owl-carousel .owl-item{
+     border: 1px solid rgb(235, 235, 235);
+
+      background-color: #fff;
+      height: 330px;
+      width: 250.13px!important;
+   
+  }
+  .owl-carousel {
+      height: 340px!important;
+  }
+  .owl-stage-outer{
+      height: 340px;
+  }
+ .itemName{
+     font-size: 17px;
+     color: #000;
+ }
+ .itemTitle{
+     height: 65px;
+     width: 100%;
+     font-size: 13px;
+     color: #707070;
+ }
+ .priceText{
+    font-weight:600;
+    color: #1492E6; 
+ }
+ .pricePo{
+    font-size: 13px;
+    color: #1492E6; 
+ }
+ .owl-item button{
+     font-size: 15px;
+     margin-top:-5px;
+     background:linear-gradient(125deg,#3498db,#34495e);
+     border-style:none; 
+     transition: all 2s;
+ }
+ .owl-item button:hover{
+     color: #c9c3c3;
+    background:linear-gradient(125deg,#34495e,#3498db);
+ }
+ .owl-item img{
+     height: 164px;
+ }
+ .final {
+     background-color: rgba(0, 0, 0, 0.103);
+ }
+ .final li{
+     list-style: none;
+     font-size: 14px;
+    
+
+ }
+ .final li a{
+     text-decoration: none;
+    transition: all 0.7s; color: #444242;
+    }
+     .final li a:hover{
+     color: #1492E6;
+    }
+ .final h5{
+     font-size: 16px;
+     font-weight: 700;
+    }
+    
+}
+.final .social ul{
+    list-style: none;
+}
+.final .social ul li{
+   
+    font-size: 10px;
+padding: 8px;
+margin: 0px 5px;
+border: 1px solid #444242;
+transition: all 0.5s;
+    
+}
+.final .social ul li:hover {
+    border-color: #1492E6;
+    background-color: #1492E6;}
+    .final .social ul li:hover i{
+ color: white;
+    }
+.final .social ul li i {
+    color: #777777;}
+
+.footer{
+    border-top: 1px solid #444242;
+}
+.footer p{font-size: 14px;}
+@media only screen and (max-width: 900px)
+{
+    .from
+    {
+        margin: 0px;
+        text-align: center;
+        width: 100%;
+    }
+    .ico
+    {
+        display: none;
+    }
+    .sign
+    {
+        margin-left: 24px;
+    }
+    .mcart
+    {
+        margin-left: 8px;
+    }
+    .inp
+    {
+        width: 100%;
+    }
+}

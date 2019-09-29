@@ -1,0 +1,17 @@
+import 'owl.carousel';
+import 'style-loader';
+import 'css-loader';
+require('./indexx.js');
+require('./task.js');
+require('./task2.js');
+require('./core.js');
+require('./help.js');
+require('./index1.js');
+require('./login.js');
+require('./register.js');
+require('./jquery.easing.1.3.js');
+require('./jquery.skitter.js');
+require('./jquery.skitter.min.js');
+require('./owl.carousel.js');
+require('./owl.carousel.min.js');
+require('./wow.js');
